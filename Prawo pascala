@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Prawo Pascala</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:
+linear-gradient(
+180deg,
+#071827,
+#0b2340,
+#12396b
+);
+
+color:white;
+overflow-x:hidden;
+}
+
+header{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+
+font-size:5rem;
+font-weight:800;
+
+background:
+linear-gradient(
+90deg,
+#ffffff,
+#8fd3ff
+);
+
+-webkit-background-clip:text;
+color:transparent;
+}
+
+.hero p{
+
+max-width:700px;
+margin:20px auto;
+
+font-size:1.2rem;
+color:#cde8ff;
+}
+
+.button{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:15px 35px;
+
+background:#3ea6ff;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:40px;
+
+transition:.3s;
+}
+
+.button:hover{
+
+transform:translateY(-4px);
+
+background:#5db5ff;
+}
+
+section{
+
+padding:100px 10%;
+}
+
+.card{
+
+background:
+rgba(255,255,255,0.08);
+
+backdrop-filter:blur(10px);
+
+border-radius:25px;
+
+padding:30px;
+
+margin-top:30px;
+
+transition:.3s;
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+}
+
+h2{
+
+font-size:3rem;
+
+margin-bottom:20px;
+}
+
+.funfact{
+
+border-left:5px solid #61c0ff;
+
+padding-left:20px;
+
+margin-top:20px;
+
+color:#d8efff;
+}
+
+.image-box{
+
+height:300px;
+
+margin-top:25px;
+
+border-radius:20px;
+
+border:2px dashed rgba(255,255,255,0.3);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+color:#b7dfff;
+}
+
+footer{
+
+padding:50px;
+
+text-align:center;
+
+color:#cce6ff;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>PRAWO PASCALA</h1>
+
+<p>
+
+Projekt o jednym z najważniejszych praw fizyki.
+Dowiedz się, jak działa ciśnienie,
+dlaczego samochody mają hamulce hydrauliczne
+i co wspólnego z tym wszystkim ma Blaise Pascal.
+
+</p>
+
+<a href="#start" class="button">
+Rozpocznij
+</a>
+
+</div>
+
+</header>
+
+<section id="start">
+
+<h2>Kim był Blaise Pascal?</h2>
+
+<div class="card">
+
+<p>
+
+Blaise Pascal był francuskim matematykiem,
+fizykiem i wynalazcą żyjącym w XVII wieku.
+Jego badania nad ciśnieniem i cieczami
+doprowadziły do sformułowania prawa,
+które do dziś wykorzystuje się
+w nowoczesnej technologii.
+
+</p>
+
+<div class="funfact">
+
+💡 Ciekawostka:
+Jednostka ciśnienia „paskal” została nazwana
+właśnie na cześć Blaise'a Pascala.
+
+</div>
+
+<div class="image-box">
+
+TUTAJ WSTAW SWOJE ZDJĘCIE PASCALA
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Na czym polega Prawo Pascala?</h2>
+
+<div class="card">
+
+<p>
+
+Prawo Pascala mówi,
+że jeśli zwiększymy ciśnienie
+w zamkniętej cieczy,
+to zmiana tego ciśnienia
+zostanie przekazana jednakowo
+we wszystkich kierunkach.
+
+</p>
+
+<p>
+
+Dzięki temu niewielka siła
+może zostać zamieniona
+na dużo większą siłę
+w odpowiednim układzie hydraulicznym.
+
+</p>
+
+<div class="funfact">
+
+🌊 To właśnie dlatego działają
+podnośniki samochodowe
+i hamulce hydrauliczne.
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Ciśnienie pod wodą</h2>
+
+<div class="card">
+
+<p>
+
+Im głębiej zanurzamy się w wodzie,
+tym większe jest ciśnienie.
+Dzieje się tak,
+ponieważ nad nami znajduje się
+coraz większa ilość wody.
+
+</p>
+
+<p>
+
+To właśnie dlatego nurkowie
+i łodzie podwodne muszą być
+odpowiednio przygotowani
+do pracy na dużych głębokościach.
+
+</p>
+
+<div class="image-box">
+
+TUTAJ WSTAW SWOJE ZDJĘCIE OCEANU
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Zastosowania</h2>
+
+<div class="card">
+
+<ul>
+
+<li>🚗 Hamulce samochodowe</li>
+<li>🏗️ Podnośniki hydrauliczne</li>
+<li>✈️ Samoloty</li>
+<li>🏥 Sprzęt medyczny</li>
+<li>🏭 Maszyny przemysłowe</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Podsumowanie</h2>
+
+<div class="card">
+
+<p>
+
+Prawo Pascala jest jednym
+z najważniejszych praw fizyki.
+Choć zostało odkryte setki lat temu,
+nadal znajduje zastosowanie
+w wielu urządzeniach używanych każdego dnia.
+
+</p>
+
+<p>
+
+Bez tego prawa nie mogłyby działać
+liczne maszyny,
+które ułatwiają życie ludziom
+na całym świecie.
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+Projekt szkolny • Prawo Pascala
+
+</footer>
+
+</body>
+</html>
